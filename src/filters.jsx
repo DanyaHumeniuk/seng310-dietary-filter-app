@@ -10,7 +10,7 @@ export const dietaryRestrictions = [
 
 export const cuisine = [
   { value: 'american', label: 'American' },
-  { value: 'chinese', label: 'ChinesFe' },
+  { value: 'chinese', label: 'Chinese' },
   { value: 'french', label: 'French' },
   { value: 'indian', label: 'Indian' },
   { value: 'italian', label: 'Italian' },
@@ -33,7 +33,7 @@ export const rating = [
 
 export const price = [
   { value: 'price1', label: 'Under $20' },
-  { value: 'price2', label: '$21 to $40' },
-  { value: 'price3', label: '$41 to $100' },
+  { value: 'price2', label: '$21 to $50' },
+  { value: 'price3', label: '$51 to $100' },
   { value: 'price4', label: '> $100' },
 ];
