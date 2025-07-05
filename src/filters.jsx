@@ -23,15 +23,6 @@ export const cuisine = [
   { value: 'vietnamese', label: 'Vietnamese' },
 ];
 
-
-/* export const rating = [
-  { value: 'one-star', label: '1 \u2605\u2606\u2606\u2606\u2606 ' },
-  { value: 'two-star', label: '2 \u2605\u2605\u2606\u2606\u2606' },
-  { value: 'three-star', label: '3 \u2605\u2605\u2605\u2606\u2606' },
-  { value: 'four-star', label: '4 \u2605\u2605\u2605\u2605\u2606' },
-  { value: 'five-star', label: '5 \u2605\u2605\u2605\u2605\u2605' },
-]; */
-
 export const rating = [
   { value: 1, label: '1+ \u2605 ' },
   { value: 2, label: '2+ \u2605' },

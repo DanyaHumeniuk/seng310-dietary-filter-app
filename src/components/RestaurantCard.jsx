@@ -1,5 +1,13 @@
 import { dietaryRestrictions, rating, price } from '../filters.jsx';
 
+const stars = [
+  { value: 1, label: '\u2605\u2606\u2606\u2606\u2606 ' },
+  { value: 2, label: '\u2605\u2605\u2606\u2606\u2606' },
+  { value: 3, label: '\u2605\u2605\u2605\u2606\u2606' },
+  { value: 4, label: '\u2605\u2605\u2605\u2605\u2606' },
+  { value: 5, label: '\u2605\u2605\u2605\u2605\u2605' },
+];
+
 function RestaurantCard({ restaurant }) {
   return (
     <div
@@ -19,7 +27,7 @@ function RestaurantCard({ restaurant }) {
           <p className="mb-2">
             <span className="font-semibold">Rating:</span> {" "}
             {
-              rating.find((p) => p.value === restaurant.rating)?.label
+              stars.find((p) => p.value === restaurant.rating)?.label
             }
           </p>
 
