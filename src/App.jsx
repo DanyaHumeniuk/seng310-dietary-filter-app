@@ -31,13 +31,15 @@ const App = () => {
   return (
     <div>
       {/* Header */}
-      <header className="flex flex-row border-b-2 border-blue-950 justify-around items-center">
-        <h1 className="text-2xl ml-2">FindMeFood</h1>
-        <button className="text-lg bg-blue-400 rounded-md m-2 px-2">Home</button>
+      <header className="flex flex-row border-b-2 border-blue-950 justify-around items-center bg-[#FF6600]">
+        <h1 className="text-2xl ml-2 font-extrabold">FindMeFood</h1>
+        <a href="/">
+          <button className="text-lg bg-blue-400 rounded-md m-2 px-2">Home</button>
+        </a>
       </header>
 
       {/* Filters */}
-      <div className='grid grid-cols-4 gap-4 border-b-2 border-blue-950'>
+      <div className='grid grid-cols-4 gap-4 border-b-2 border-blue-950 bg-[#2C3E50]'>
         <Select
           placeholder='Search Dietary Restrictions...'
           closeMenuOnSelect={false}
@@ -85,7 +87,6 @@ const App = () => {
       </div>
 
       {/* Restaurant Cards */}
-
       {filteredRestaurants.length === 0 ? (
         <div className="flex justify-center items-center min-h-screen">
           <h1 className='text-2xl'>No restaurants match the selected filters.</h1>

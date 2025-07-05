@@ -4,7 +4,7 @@ function RestaurantCard({ restaurant }) {
   return (
     <div
       key={restaurant.id}
-      className="border rounded-lg shadow-md p-4 flex flex-col"
+      className="border rounded-lg shadow-md p-4 flex flex-col bg-[#FBB917]"
     >
       <div className="flex flex-row">
         <img
