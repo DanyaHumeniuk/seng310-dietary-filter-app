@@ -15,11 +15,13 @@ function RestaurantCard({ restaurant }) {
       className="border rounded-lg shadow-md p-4 flex flex-col bg-[#FBB917]"
     >
       <div className="flex flex-row">
-        <img
+        <div className="w-40 h-40 overflow-hidden mb-4 rounded">
+          <img
           src={restaurant.image}
           alt={restaurant.name}
-          className="w-40 h-40 object-cover mb-4 rounded"
-        />
+          className="w-full h-full object-cover"
+          />
+        </div>
 
         <div className="flex flex-col items-center justify-center w-full">
           <h2 className="text-xl font-semibold mb-2">{restaurant.name}</h2>
