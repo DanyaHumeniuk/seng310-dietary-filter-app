@@ -1,17 +1,16 @@
 export const dietaryRestrictions = [
-  { value: 'celiac', label: 'Celiac' },
+  { value: 'celiac', label: 'Gluten Free' },
   { value: 'halal', label: 'Halal' },
-  { value: 'peanuts', label: 'Peanuts' },
-  { value: 'shellfish', label: 'Shellfish' },
-  { value: 'soy', label: 'Soy' },
-  { value: 'tree-nuts', label: 'Tree Nuts' },
+  { value: 'peanut', label: 'Peanut Free' },
+  { value: 'soy', label: 'Soy Free' },
+  { value: 'tree-nut', label: 'Tree Nut Free' },
   { value: 'vegan', label: 'Vegan' },
   { value: 'vegetarian', label: 'Vegetarian' },
 ];
 
 export const cuisine = [
   { value: 'american', label: 'American' },
-  { value: 'chinese', label: 'Chinese' },
+  { value: 'chinese', label: 'ChinesFe' },
   { value: 'french', label: 'French' },
   { value: 'indian', label: 'Indian' },
   { value: 'italian', label: 'Italian' },

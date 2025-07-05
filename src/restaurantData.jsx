@@ -28,7 +28,7 @@ export const restaurantData = [
     cuisine: "mexican",
     rating: 4,
     price: "price1",
-    dietary: ["peanuts", "vegan", "vegetarian"],
+    dietary: ["peanut", "vegan", "vegetarian"],
     website: "https://www.lataquisa.com/locations/downtown/menu/",
     description: "La Taquisa is a locally owned, family-run business combining authentic Guadalajara family recipes from Sindy with Scott's 22 years of culinary experience to offer an exceptional Mexican dining experience featuring made-from-scratch fillings, salsas, and fresh, pressed-to-order gluten-free corn tortillas.",
   },
@@ -50,7 +50,7 @@ export const restaurantData = [
     cuisine: "italian",
     rating: 4,
     price: "price2",
-    dietary: ["shellfish"],
+    dietary: ["vegitarian"],
     website: "http://frankiesmoderndiner.com",
     description: "Frankie's is a family-friendly restaurant in Victoria, BC, dedicated to crafting diverse breakfast, lunch, and dinner menus with fresh, local ingredients and a lot of love, ensuring a delicious and inclusive dining experience for everyone.",
   }
