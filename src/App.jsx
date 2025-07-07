@@ -34,7 +34,7 @@ const App = () => {
       <header className="flex flex-row border-b-2 border-blue-950 justify-around items-center bg-[#FF6600]">
         <h1 className="text-2xl ml-2 font-extrabold">FindMeFood</h1>
         <a href="/">
-          <button className="text-lg bg-blue-400 rounded-md m-2 px-2">Home</button>
+          <button className="text-lg bg-blue-400 rounded-md m-2 px-2">Reset Filters</button>
         </a>
       </header>
 
