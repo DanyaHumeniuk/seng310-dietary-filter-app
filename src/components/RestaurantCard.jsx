@@ -43,7 +43,7 @@ function RestaurantCard({ restaurant }) {
           <p className="mb-2">
             <span className="font-semibold">Dietary:</span>{" "}
             {restaurant.dietary.map((d) => (
-              <span key={d} className="mr-1 px-2 py-1 bg-blue-100 rounded text-sm">
+              <span key={d} className="flex flex-wrap px-2 py-1 bg-blue-100 rounded text-sm mt-2">
                 {dietaryRestrictions.find((dr) => dr.value === d)?.label}
               </span>
             ))}
