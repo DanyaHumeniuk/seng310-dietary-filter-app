@@ -39,7 +39,7 @@ const App = () => {
       </header>
 
       {/* Filters */}
-      <div className='grid grid-cols-4 gap-4 border-b-2 border-blue-950 bg-[#2C3E50]'>
+      <div className='grid lg:grid-cols-4 grid-cols-1 gap-4 border-b-2 border-blue-950 bg-[#2C3E50] justify-center items-center px-2'>
         <Select
           placeholder='Search Dietary Restrictions...'
           closeMenuOnSelect={false}
