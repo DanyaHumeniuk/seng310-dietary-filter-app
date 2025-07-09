@@ -40,13 +40,15 @@ function RestaurantCard({ restaurant }) {
             }
           </p>
 
-          <p className="mb-2">
-            <span className="font-semibold">Dietary:</span>{" "}
-            {restaurant.dietary.map((d) => (
-              <span key={d} className="flex flex-wrap px-2 py-1 bg-blue-100 rounded text-sm mt-2">
-                {dietaryRestrictions.find((dr) => dr.value === d)?.label}
-              </span>
-            ))}
+          <p className="mb-2 flex flex-row gap-2 justify-end items-start pl-2">
+            <span className="font-semibold whitespace-nowrap">Dietary:</span>{" "}
+            <span className="flex flex-wrap justify-center lg:block">
+              {restaurant.dietary.map((d) => (
+                <span key={d} className="px-2 py-1 bg-blue-100 rounded text-sm mt-2 mr-2">
+                  {dietaryRestrictions.find((dr) => dr.value === d)?.label}
+                </span>
+              ))}
+            </span>
           </p>
 
           {restaurant.website && (
